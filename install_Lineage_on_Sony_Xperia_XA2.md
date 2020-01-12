@@ -1,6 +1,6 @@
 
 # Install Lineage on Sony XA2
-You need Linux, adb and TWRP.
+Install adb on Linux.
 
 ## Temporarily boot XA2 into TWRP
 [Official docs](https://wiki.lineageos.org/devices/pioneer/install)
@@ -8,17 +8,17 @@ You need Linux, adb and TWRP.
 1) Get the latest TWRP image (twrp-*pioneer.img) from  https://twrp.me/
 
 2) Boot XA2 into fastboot mode (blue LED)
-- Turn off your XA2 
-- Press and hold the Volume ***Up*** key for a few seconds
-- Connect the USB cable and watch the LED turn blue
-- Release the Volume ***Up*** key
+- Turn off the XA2
+- Press and hold the Volume ***Up*** for a few seconds
+- Connect the USB cable and watch the LED turn blue as XA2 enters fastboot mode
+- Release the Volume ***Up***
 - You may execute `fastboot devices` to verify
 
 3) Fastboot into TWRP:
 - Execute `fastboot boot twrp-3.3.1-4-pioneer.img` 
+- XA2 opens TWRP, leaves fastboot mode and turns off blue LED
 
-Notes: 
-- Fastbooting TWRP ends fastboot mode, only adb commands still work
+Note:
 - Don't flash TWRP, this would destroy Lineage! (Do NOT excute `fastboot FLASH boot twrp-ERROR.img`)
   
 ## Sideload Firmware
@@ -46,11 +46,11 @@ Continue on https://wiki.lineageos.org/devices/pioneer/install
         adb shell twrp sideload
         adb sideload lineage-16.0-20200106-nightly-pioneer-signed.zip
 
-## Reboot from TWRP into Lineage
+## Leave TWRP
 - Press Reboot, then press System
 - Uncheck "Prompt to install TWRP" 
 - If you see "Swipe to install TWRP App": chose "Do not Install"
-- If TWRP issues warning "No OS has been installed": ignore
+- If TWRP warns "No OS has been installed": ignore
 
 ## Glossary
 
