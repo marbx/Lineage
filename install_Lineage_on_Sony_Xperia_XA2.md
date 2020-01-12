@@ -9,14 +9,14 @@ Install adb on Linux.
 
 2) Boot XA2 into fastboot mode (blue LED)
 - Turn off the XA2
-- Press and hold the Volume ***Up*** for a few seconds
-- Connect the USB cable and watch the LED turn blue as XA2 enters fastboot mode
-- Release the Volume ***Up***
+- Press and hold Volume ***Up***
+- Wait a few seconds, connect the USB cable and watch the LED turn blue
+- Release Volume ***Up***
 - You may execute `fastboot devices` to verify
 
-3) Fastboot into TWRP:
+3) Fastboot into TWRP
 - Execute `fastboot boot twrp-3.3.1-4-pioneer.img` 
-- XA2 opens TWRP, leaves fastboot mode and turns off blue LED
+- XA2 leaves fastboot mode, turns off blue LED and starts TWRP.
 
 Note:
 - Don't flash TWRP, this would destroy Lineage! (Do NOT excute `fastboot FLASH boot twrp-ERROR.img`)
@@ -37,9 +37,8 @@ As of 2019-12: 50.2 or 50.1 and [pioneer_modem_bt_dsp_50.2.A.0.400.zip](https://
 
 ## Sideload Lineage
 Get Lineage build from https://download.lineageos.org/pioneer
-Continue on https://wiki.lineageos.org/devices/pioneer/install 
 
-1) Temporarily boot into TWRP
+1) Temporarily boot into TWRP!
 
 2) Execute
 
@@ -69,4 +68,3 @@ Bootloader mode = download mode = fastboot mode
 
     fastboot set_active b
     fastboot set_active a
-
