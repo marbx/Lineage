@@ -1,8 +1,12 @@
 
-# Install Lineage on Sony XA2
+## Install Lineage 17.1 on Sony XA2
+
+wait https://www.reddit.com/r/LineageOS/comments/fv54ac/los_171_sony_xperia_xa2_no_mobile_network_or/
+
+## Install Lineage 16.0 on Sony XA2
 Install adb on Linux.
 
-## Temporarily boot XA2 into TWRP
+### Temporarily boot XA2 into TWRP
 [Official docs](https://wiki.lineageos.org/devices/pioneer/install)
 
 1) Get the latest TWRP image (twrp-*pioneer.img) from  https://twrp.me/
@@ -21,7 +25,7 @@ Install adb on Linux.
 Note:
 - Don't flash TWRP, this would destroy Lineage! (Do NOT excute `fastboot FLASH boot twrp-ERROR.img`)
   
-## Sideload Firmware
+### Sideload Firmware
 1) Inquire firmware version from post https://forum.xda-developers.com/showpost.php?p=78973496&postcount=2
 
 As of 2019-08: UK 50.1.A.12.123  
@@ -35,7 +39,7 @@ As of 2019-12: 50.2 or 50.1 and [pioneer_modem_bt_dsp_50.2.A.0.400.zip](https://
         adb shell twrp sideload
         adb sideload pioneer_modem_bt_dsp_50.2.A.0.400.zip
 
-## Sideload Lineage
+### Sideload Lineage
 Get Lineage build from https://download.lineageos.org/pioneer
 
 1) Temporarily boot into TWRP!
@@ -45,26 +49,28 @@ Get Lineage build from https://download.lineageos.org/pioneer
         adb shell twrp sideload
         adb sideload lineage-16.0-20200106-nightly-pioneer-signed.zip
 
-## Leave TWRP
+### Leave TWRP
 - Press Reboot, then press System
 - Uncheck "Prompt to install TWRP" 
 - If you see "Swipe to install TWRP App": chose "Do not Install"
 - If TWRP warns "No OS has been installed": ignore
 
-## Glossary
+### Glossary
 
 Bootloader mode = download mode = fastboot mode
 
-## PROBLEM "Boot loop" into 'your device is corrupt'
+### PROBLEM "Boot loop" into 'your device is corrupt'
 
     Your device is corrupt
     It can't be trusted and will not boot
     Your device will be powered off in 5 seconds
 
-### SOLUTION switching slots twice
+#### SOLUTION switching slots twice
 
     fastboot getvar current-slot
     current-slot: _a
 
     fastboot set_active b
     fastboot set_active a
+
+
