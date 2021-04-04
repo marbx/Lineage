@@ -3,6 +3,9 @@
 
 wait https://www.reddit.com/r/LineageOS/comments/fv54ac/los_171_sony_xperia_xa2_no_mobile_network_or/
 
+Issues
+- https://gitlab.com/LineageOS/issues/android/-/issues/1919
+
 ## Install Lineage 16.0 on Sony XA2
 Install adb on Linux.
 
@@ -57,7 +60,8 @@ Get Lineage build from https://download.lineageos.org/pioneer
 
 ### Glossary
 
-Bootloader mode = download mode = fastboot mode
+- Bootloader mode = download mode = fastboot mode
+- Baseband = ?
 
 ### PROBLEM "Boot loop" into 'your device is corrupt'
 
