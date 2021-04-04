@@ -58,6 +58,10 @@ Get Lineage build from https://download.lineageos.org/pioneer
 - If you see "Swipe to install TWRP App": chose "Do not Install"
 - If TWRP warns "No OS has been installed": ignore
 
+### Sony
+- Emma?
+- Flash Tool ? https://developer.sony.com/develop/open-devices/get-started/flash-tool/
+
 ### Glossary
 
 - Bootloader mode = download mode = fastboot mode
