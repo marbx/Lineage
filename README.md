@@ -1,10 +1,9 @@
+## Searchh issues for Sony XA2
+https://gitlab.com/LineageOS/issues/android/-/issues?label_name%5B%5D=device%3Apioneer&scope=all&state=closed
 
-## Install Lineage 17.1 on Sony XA2
 
-wait https://www.reddit.com/r/LineageOS/comments/fv54ac/los_171_sony_xperia_xa2_no_mobile_network_or/
+## Install Lineage on Sony XA2
 
-Issues
-- https://gitlab.com/LineageOS/issues/android/-/issues/1919
 
 ## Install Lineage 16.0 on Sony XA2
 Install adb on Linux.
