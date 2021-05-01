@@ -58,8 +58,7 @@ Get Lineage build from https://download.lineageos.org/pioneer
 - If TWRP warns "No OS has been installed": ignore
 
 ### Sony
-- Emma?
-- Flash Tool ? https://developer.sony.com/develop/open-devices/get-started/flash-tool/
+- Flash Tool Emma https://developer.sony.com/develop/open-devices/get-started/flash-tool/
 
 ### Glossary
 
