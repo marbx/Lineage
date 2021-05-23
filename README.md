@@ -1,15 +1,20 @@
+### DOCS
+
+[Official docs](https://wiki.lineageos.org/devices/pioneer/install)
+
+Install USB drivers?? https://developer.android.com/studio/run/win-usb
+
+
 ## Searchh issues for Sony XA2
 https://gitlab.com/LineageOS/issues/android/-/issues?label_name%5B%5D=device%3Apioneer&scope=all&state=closed
 
 
-## Install Lineage on Sony XA2
-
+## Install Lineage 18.1 on Sony XA2 H3113
 
 ## Install Lineage 16.0 on Sony XA2
 Install adb on Linux.
 
 ### Temporarily boot XA2 into TWRP
-[Official docs](https://wiki.lineageos.org/devices/pioneer/install)
 
 1) Get the latest TWRP image (twrp-*pioneer.img) from  https://twrp.me/
 
@@ -58,7 +63,12 @@ Get Lineage build from https://download.lineageos.org/pioneer
 - If TWRP warns "No OS has been installed": ignore
 
 ### Sony
-- Flash Tool Emma https://developer.sony.com/develop/open-devices/get-started/flash-tool/
+- Flash Tool Emma https://developer.sony.com/develop/open-devices/get-started/flash-tool
+Firmware from 1311-2845 50.1.A.13.123
+Firmware to   1312-3737 50.2.A.0.400 R4B Customized_UK
+
+VOLUME DOWN Flash Firmware leads to Boot loop. Boot loop ends
+
 
 ### Glossary
 
