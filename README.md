@@ -21,18 +21,18 @@ Install adb on Linux.
 - You may execute `fastboot devices` to verify
 
 3) Fastboot into TWRP
-- Execute `fastboot boot twrp-3.3.1-4-pioneer.img` 
+- Execute `fastboot boot twrp-3.3.1-4-pioneer.img`
 - XA2 leaves fastboot mode, turns off blue LED and starts TWRP.
 
 Note:
 - Don't flash TWRP, this would destroy Lineage! (Do NOT excute `fastboot FLASH boot twrp-ERROR.img`)
-  
+
 ### Sideload Firmware
 1) Inquire firmware version from post https://forum.xda-developers.com/showpost.php?p=78973496&postcount=2
 
-As of 2019-08: UK 50.1.A.12.123  
+As of 2019-08: UK 50.1.A.12.123
 
-As of 2019-12: 50.2 or 50.1 and [pioneer_modem_bt_dsp_50.2.A.0.400.zip](https://androidfilehost.com/?fid=1899786940962602524) 
+As of 2019-12: 50.2 or 50.1 and [pioneer_modem_bt_dsp_50.2.A.0.400.zip](https://androidfilehost.com/?fid=1899786940962602524)
 
 2) Temporarily boot into TWRP!
 
@@ -53,7 +53,7 @@ Get Lineage build from https://download.lineageos.org/pioneer
 
 ### Leave TWRP
 - Press Reboot, then press System
-- Uncheck "Prompt to install TWRP" 
+- Uncheck "Prompt to install TWRP"
 - If you see "Swipe to install TWRP App": chose "Do not Install"
 - If TWRP warns "No OS has been installed": ignore
 
